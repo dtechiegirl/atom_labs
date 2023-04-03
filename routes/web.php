@@ -3,6 +3,9 @@
 use App\Http\Livewire\Actions;
 use App\Http\Livewire\Calculation;
 use App\Http\Livewire\Comments;
+use App\Http\Livewire\CrudForm;
+use App\Http\Livewire\Form;
+use App\Http\Livewire\Forms;
 use App\Http\Livewire\Lifecycle;
 use App\Http\Livewire\ParamComponent;
 use App\Http\Livewire\Registration;
@@ -35,3 +38,6 @@ Route::get('/comments', Comments::class);
 Route::get('/actions', Actions::class);
 Route::get('/calculation', Calculation::class);
 Route::get('/life-cycle', Lifecycle::class);
+Route::get('/forms', Forms::class);
+Route::get('/form', Form::class);
+Route::get('/crud', CrudForm::class);

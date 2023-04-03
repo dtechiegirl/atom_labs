@@ -7,6 +7,7 @@ use Livewire\Component;
 class Lifecycle extends Component
 {
     public $hookProperty = [];
+    public $name;
     public function mount(){
         $this->hookProperty[] = 'i am from mount';
     }

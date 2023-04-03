@@ -6,4 +6,8 @@
     <button wire:click="increase">+</button>
     {{$num}}
     <button wire:click="decrease">-</button>
+
+    {{-- git remote add origin https://github.com/dtechiegirl/atom_labs.git
+git branch -M main
+git push -u origin main --}}
 </div>
